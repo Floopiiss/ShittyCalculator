@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-overlay"></div>
+    <div class="main-content"> 
+      <h1>Calculator</h1>
+      
+      <h2>No Value Entered</h2>
+      <div class="calculator-container"> 
+        <div class="number-button-grid">
+          <button type="button" class="calc-button" id="button1" data-value="7">7</button>
+          <button type="button" class="calc-button" id="button2" data-value="8">8</button>
+          <button type="button" class="calc-button" id="button3" data-value="9">9</button>
+          <button type="button" class="calc-button" id="button4" data-value="4">4</button>
+          <button type="button" class="calc-button" id="button5" data-value="5">5</button>
+          <button type="button" class="calc-button" id="button6" data-value="6">6</button>
+          <button type="button" class="calc-button" id="button7" data-value="1">1</button>
+          <button type="button" class="calc-button" id="button8" data-value="2">2</button>
+          <button type="button" class="calc-button" id="button9" data-value="3">3</button>
+          <button type="button" class="calc-button" id="button0" data-value="0">0</button>
+          <button type="button" class="calc-button" id="buttonClear" data-value="C">Clear</button>
+          <button type="button" class="calc-button" id="buttonEquals" data-value="=">=</button>
+        </div>
+      
+        <div class="operator-button-grid">
+          <button type="button" class="calc-button" id="buttonPlus" data-value="+">+</button>
+          <button type="button" class="calc-button" id="buttonMinus" data-value="-">-</button>
+          <button type="button" class="calc-button" id="buttonMultiply" data-value="*">×</button>
+          <button type="button" class="calc-button" id="buttonDivide" data-value="/">÷</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
